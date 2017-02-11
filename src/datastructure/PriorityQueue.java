@@ -7,7 +7,7 @@ package datastructure;
  * By IntelliJ IDEA 15
  * Date: 05/November/2016 Time: 12:18
  */
-public class PriorityQueue<K,V extends Comparable<V>> implements Comparable {
+public class PriorityQueue<K,V extends Comparable> implements Comparable {
 
     /**
      * The type Pair.

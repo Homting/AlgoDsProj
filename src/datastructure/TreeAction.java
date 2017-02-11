@@ -9,7 +9,7 @@ package datastructure;
  *
  * @param <T> the type parameter
  */
-public abstract class TreeAction<T extends Comparable<T>>{
+public abstract class TreeAction<T extends Comparable>{
     /**
      * Run.
      *

@@ -10,7 +10,7 @@ package datastructure;
  * @param <K> the type parameter
  * @param <V> the type parameter
  */
-public class DictionaryTree<K extends Comparable<K>,V> {
+public class DictionaryTree<K extends Comparable,V> {
     private class DictionaryPair implements Comparable<DictionaryPair>{
         private K key;
         private V value;

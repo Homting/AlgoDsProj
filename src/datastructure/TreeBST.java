@@ -9,7 +9,7 @@ package datastructure;
  *
  * @param <T> the type parameter
  */
-public class TreeBST<T extends Comparable<T>> {
+public class TreeBST<T extends Comparable> {
 
     /**
      * The type Tree node.

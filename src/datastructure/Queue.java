@@ -8,7 +8,7 @@ package datastructure;
  * Date: 31/October/2016 Time: 13:20
  * This class provide basic Queue operation.
  */
-public class Queue<T extends Comparable<T>> implements Comparable {
+public class Queue<T extends Comparable> implements Comparable {
     private LinkedList<T> list;
 
     /**

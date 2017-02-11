@@ -9,7 +9,7 @@ package datastructure;
  *
  * @param <T> the type parameter
  */
-public class RedBlackTree<T extends Comparable<T>> {
+public class RedBlackTree<T extends Comparable> {
     /**
      * The enum Tree node color.
      */

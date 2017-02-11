@@ -9,7 +9,7 @@ package datastructure;
  * @param <K> the type parameter key
  * @param <V> the type parameter value
  */
-public class Dictionary<K extends Comparable<K>,V> {
+public class Dictionary<K extends Comparable,V> {
     /**
      * The type Dictionary pair.
      * Pair includes key and value.

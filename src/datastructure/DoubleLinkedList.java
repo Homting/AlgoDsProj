@@ -9,7 +9,7 @@ package datastructure;
  *
  * @param <T> the type parameter
  */
-public class DoubleLinkedList<T extends Comparable<T>> implements Comparable<DoubleLinkedList>{
+public class DoubleLinkedList<T extends Comparable> implements Comparable<DoubleLinkedList>{
 
     /**
      * The type Double linked list element.

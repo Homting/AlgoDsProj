@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  *
  * @param <T> the type parameter
  */
-public class Graph<T extends Comparable<T>> implements Comparable{
+public class Graph<T extends Comparable> implements Comparable{
     /**
      * The type Node.
      */

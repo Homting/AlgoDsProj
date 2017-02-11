@@ -12,7 +12,7 @@ package datastructure;
  *
  * @param <T> the type parameter
  */
-public class LinkedList<T extends Comparable<T>> implements Comparable<LinkedList> {
+public class LinkedList<T extends Comparable> implements Comparable<LinkedList> {
     @Override
     public int compareTo(LinkedList o) {
         return 0;
