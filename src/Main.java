@@ -80,7 +80,7 @@ public class Main {
         n.rate("Amy","Boni",UserConst.STAR_ONE);
         n.rate("Amy","Boni",UserConst.STAR_TWO);
         n.rate("Amy","Boni",UserConst.STAR_ONE);
-        //n.rate("Cindy","Boni",UserConst.STAR_FOUR);
+        n.rate("Cindy","Boni",UserConst.STAR_FOUR);
         n.rate("Heleny","Boni",UserConst.STAR_TWO);
         n.rate("Fox","Everyday",UserConst.STAR_FIVE);
         n.rate("Ivan","Everyday",UserConst.STAR_ZERO);
