@@ -985,4 +985,34 @@ public class Graph<T extends Comparable> implements Comparable{
         return graph;
     }
 
+    public void printAllPathInExam(T start,T end,LinkedList<T> temp) {
+        if (findNode(start).compareTo(findNode(end))==0) {
+            temp.addLast(start);
+            temp.print();
+            return;
+        }
+
+        Node startnode = findNode(start);
+        Node endnode = findNode(end);
+
+        Queue<Node> todolist = new Queue<>();
+
+        todolist.push(startnode);
+
+        while (!todolist.empty()) {
+            Node current = todolist.pop();
+            temp.addLast(current.label);
+
+            if (current.compareTo(endnode)==0) {
+                temp.print();
+            } else {
+                for (int i=0;i<current.edges.size();i++) {
+                    Edge e = current.edges.get(i);
+                    printAllPathInExam(e.toNode.label,end,temp);
+                    temp.removeLast();
+                }
+            }
+        }
+    }
+
 }
